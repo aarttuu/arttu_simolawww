@@ -14,7 +14,20 @@ p {
 header {
     color:blue;
 }
-h1 .warning{
+h1.warning,note{
     color:blue;
     background-color: yellow;
+}
+#note1 {
+    color:red;
+}
+.comment{
+    border: 4px solid #666;
+    padding: 5 px;
+    background-color: rgb(245, 245, 135);
+}
+
+article > p{
+    font-weight: bold;
+    font-color: red;
 }
