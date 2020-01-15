@@ -12,5 +12,9 @@ p {
 }
 
 header {
-    color:yellow;
+    color:blue;
+}
+h1 .warning{
+    color:blue;
+    background-color: yellow;
 }
