@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://storage.needpix.com/rsynced_images/red-abstract-2746192_1280.jpg);
+}
+
+.container {
+    background-color: white;
+    max-width: 1000px;
+    padding: 0;
+}
+
+.bluebg {
+    padding: 1;
+}
+
+footer {
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
