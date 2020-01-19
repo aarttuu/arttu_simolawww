@@ -1,5 +1,6 @@
 .flexContainer {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     background-color: lightgray;
     flex-wrap: wrap;
@@ -7,18 +8,17 @@
 
 .flexContainer > article, .flexColumn > article {
     margin: 2em;
-    min-height: 290px;
+    min-height: 255px;
 }
 
 .flexColumn {
     display: flex;
-    padding: 2em;
+    padding: 1em;
 }
 
 header {
-    height: 200px;
+    height: 150px;
     background-color: blue;
-    text-align: center;
     font-size: 50px;
     color: white;
 }
@@ -26,13 +26,13 @@ header {
 .box {
     float: left;
     padding: 1em;
-    width: 300px;
+    width: 150px;
     background-color: yellow;
     min-height: 450px;
 }
 
 footer {
-    height: 100px;
+    height: 25px;
     background-color: black;
     color: white;
     text-align: center;
