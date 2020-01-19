@@ -1,4 +1,39 @@
+.flexContainer {
+    display: flex;
+    padding: 2em;
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+
+.flexContainer > article, .flexColumn > article {
+    margin: 2em;
+    min-height: 290px;
+}
+
+.flexColumn {
+    display: flex;
+    padding: 2em;
+}
+
 header {
     height: 200px;
     background-color: blue;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.box {
+    float: left;
+    padding: 1em;
+    width: 300px;
+    background-color: yellow;
+    min-height: 450px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
